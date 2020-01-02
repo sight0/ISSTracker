@@ -28,13 +28,13 @@ def live():
     while True:
         updateAPI()
         clear()
-        print("\tInternational Space Station Astronauts & Coordinates Tracker")
+        print("\n\tInternational Space Station Astronauts & Coordinates Tracker")
         trackLocation()
         trackAstronauts()
 
 def start():
     clear()
-    print("\tInternational Space Station Astronauts & Coordinates Tracker\n")
+    print("\n\tInternational Space Station Astronauts & Coordinates Tracker\n")
     print("Commands: \nlive \t\t  - Have a live feed.\nlocation \t  - Know the exact location once.\nastronauts   \t  - Know who is up in the ISS right now.\n")
     while True:
         cmd = input("\n> ")
