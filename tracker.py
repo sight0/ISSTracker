@@ -15,7 +15,7 @@ def clear():
 def trackLocation():
     longitude = LocationAPI.json()['iss_position']['longitude']
     latitude = LocationAPI.json()['iss_position']['latitude']
-    print("\nCurrent Coordinates of the ISS is: latitude("+latitude+") longitude("+latitude+")")
+    print("\nCurrent Coordinates of the ISS is: latitude("+latitude+") longitude("+longitude+")")
 
 def trackAstronauts():
     astronauts = AstronautAPI.json()['people']
